@@ -1,7 +1,8 @@
 import Head from "next/head";
+import Navbar from "../components/Navbar";
 
 const Home = () => (
-  <div>
+  <>
     <Head>
       <title>
         News Headlines, Latest News Updates, Today Headlines, Top Stories,
@@ -15,12 +16,9 @@ const Home = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <main>
-      <div className="text-center">
-        <h1 className="text-4xl font-bold">Nayi Taaza</h1>
-        <p>Stay in touch with what&#39;s happening around</p>
-      </div>
+      <Navbar />
     </main>
-  </div>
+  </>
 );
 
 export default Home;
