@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const Home = () => (
   <div>
-    <Head lang="en">
+    <Head>
       <title>
         News Headlines, Latest News Updates, Today Headlines, Top Stories,
         Breaking News | Nayi Taaza
